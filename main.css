@@ -1,0 +1,62 @@
+body{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    background-color: #31394c;
+    color: #fff;
+}
+h1{
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+}
+.stopwatch{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    padding-top: 25px;
+    grid-row-gap: 23px;
+}
+
+.gold{
+    font-weight: 900;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+} 
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: #31394c;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    font-size: 50px;
+    box-shadow: 0 0 0px #fff, 0 0 20px #f2c94c;
+
+}
+.controls{
+display: flex;
+justify-content: center;
+width: 178px;
+}
+button{
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    margin: none;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 100;
+    transition: all 0.3 ease;
+}
+button:active{
+    transform: scale(0.90);
+}
+button:hover{
+    color: #f2c94c;
+
+}

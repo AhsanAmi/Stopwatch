@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch | ES6</title>
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
+</head> 
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <h1>Stopwatch <span class="gold"> Javascript
+            </span> </h1>
+            <!-- <div class="circle" ><span class="time" id="display">
+                00:00:00
+            </span></div> -->
+            <div class="display circle time">00:00:00</div>
+            
+            <div class="controls">
+                <button id="start" title="start"><ion-icon class="start" name="play-outline"></ion-icon></button>
+                <button  id="pause" title="pause"><ion-icon class="stop" name="pause-outline"></ion-icon></button>
+                <button id="reset" title="reset"><ion-icon  class="reset" name="refresh-outline" ></ion-icon></button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
